@@ -63,4 +63,13 @@ Object.fromEntries(cities.map((_, i) => [cities[i], inhabitants[i]]));
  */
 
 
+console.log(`==========Task4========`);
 
+const myArr = ["Iran", "Brazil", "Syria", "Canada"];
+
+function toNewArray(element)
+{
+
+ return [element[1],element[0],element[2],element='Germany']  
+}
+console.log(toNewArray(myArr));
