@@ -32,5 +32,9 @@ const{hobbies} = person;
 
 console.log(hobbies);
 
+console.log(`=====Task3=====`);
 
 
+
+const entries = Object.entries(person);
+console.log(entries);
